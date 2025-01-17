@@ -5,7 +5,7 @@ const path = require("path");
 const PORT = 3000;
 const PAGES_DIR = path.join(__dirname, "pages");
 
-// Function to serve HTML files
+
 const serveFile = (filePath, res) => {
   fs.readFile(filePath, (err, data) => {
     if (err) {
@@ -18,7 +18,6 @@ const serveFile = (filePath, res) => {
   });
 };
 
-// Create the server
 const server = http.createServer((req, res) => {
   let filePath;
 
@@ -40,7 +39,7 @@ const server = http.createServer((req, res) => {
   serveFile(filePath, res);
 });
 
-// Start the server
+
 server.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
