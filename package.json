@@ -8,8 +8,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakepaooo/CPAN212.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cakepaooo/CPAN212/issues"
+  },
+  "homepage": "https://github.com/cakepaooo/CPAN212#readme",
+  "description": ""
 }

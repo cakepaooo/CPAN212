@@ -1,0 +1,51 @@
+/* General Styling */
+body {
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.resume-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Header */
+.header-card {
+  background-color: #343a40;
+  color: white;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.bio {
+  font-style: italic;
+}
+
+.link {
+  color: #17a2b8;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+.section-card {
+  background-color: white;
+  border-left: 5px solid #007bff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.edu-text, .skill-text, .exp-role, .exp-duration, .project-name, .project-role {
+  font-weight: bold;
+}
+
+.exp-list, .project-details {
+  padding-left: 20px;
+}
